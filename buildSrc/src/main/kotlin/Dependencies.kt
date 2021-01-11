@@ -6,10 +6,14 @@ object Dependencies {
     }
 
     object Spigot {
-        val version = "1.16.2-R0.1-SNAPSHOT"
+        val version = "1.15.2-R0.1-SNAPSHOT"
         val api = "org.spigotmc:spigot-api:$version"
         val annotations = "org.spigotmc:plugin-annotations:1.2.3-SNAPSHOT"
         val repository = "https://hub.spigotmc.org/nexus/content/repositories/snapshots/"
+    }
+
+    object SonaType {
+        val repository = "https://oss.sonatype.org/content/groups/public/"
     }
 
     object JUnit {
